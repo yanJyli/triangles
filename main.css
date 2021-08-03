@@ -1,0 +1,41 @@
+* {	
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+   
+}	
+
+script {
+    display: none;
+}
+
+body {
+    background-image: url(1.jpg) ;
+    background-size: cover;
+}
+
+#label {
+
+	border: 5px double white;
+	margin: 30px 30px;
+    color: rgb(255, 255, 255);
+	text-align: center;
+    transform:rotate(350deg);
+    word-wrap: break-word;
+    text-transform: uppercase;
+	font-size: 30px;
+    display: inline-block;
+    display: table-caption;
+    border-radius: 100%;
+    padding: 50px 50px;
+	}
+
+#triangle {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    font-family: Courier New monospace;
+   
+    opacity: 0.5;
+
+}
